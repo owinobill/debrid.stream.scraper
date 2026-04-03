@@ -7,11 +7,6 @@
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "title",
-    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
-    "searchPattern": {
-      "movie": "movie/%imdbId",
-      "tv": "series/%imdbId:%season:%episode"
-    },
-    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
+    "url": "https://torrentio.strem.fun/stream/%searchPattern.json"
   }
 ]
