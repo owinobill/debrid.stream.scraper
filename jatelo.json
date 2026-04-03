@@ -7,11 +7,12 @@
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=10|qualityfilter=720p,480p,other,scr,cam,unknown/stream/%searchPattern.json"
+    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=10|qualityfilter=4k,1080p/stream/%searchPattern.json"
   },
   {
     "name": "Jatelo-Torrentio-Movies",
@@ -21,11 +22,12 @@
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=10|qualityfilter=720p,480p,other,scr,cam,unknown/stream/%searchPattern.json"
+    "url": "https://torrentio.strem.fun/sort=qualitysize|limit=10|qualityfilter=4k,1080p/stream/%searchPattern.json"
   },
   {
     "name": "Jatelo-Mediafusion-TV",
@@ -35,6 +37,7 @@
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
@@ -49,6 +52,7 @@
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
@@ -63,6 +67,7 @@
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
@@ -77,6 +82,7 @@
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
     "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
